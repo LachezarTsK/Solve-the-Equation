@@ -31,8 +31,8 @@ public class Solution {
 
         // If the side of the equation starts with '-' or '+' then jump to the next index.
         int index = (equation.charAt(startIndex) == '-' || equation.charAt(startIndex) == '+')
-                ? 1 + startIndex
-                : startIndex;
+                    ? 1 + startIndex
+                    : startIndex;
 
         while (index < endBoundary) {
             int operationSign = 1;
